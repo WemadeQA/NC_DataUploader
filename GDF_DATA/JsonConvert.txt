@@ -1,0 +1,9 @@
+﻿Gen,json_gendata
+ITEM_GETWAY,json_item_getway
+Npc,json_npc
+Waypoint,json_Waypoint
+Trigger_GroupBase,json_Trigger_GroupBase
+MapMini,json_MapMini
+SafetyArea,json_SafetyArea
+SectorGrade,json_SectorGrade
+DungeonScript,json_DungeonScript

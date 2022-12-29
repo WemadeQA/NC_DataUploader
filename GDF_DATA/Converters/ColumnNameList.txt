@@ -1,0 +1,1773 @@
+Name,이름
+Level,레벨
+ReqExp,요구 경험치
+MaxHP,최대 체력
+MaxMana,최대 마나
+PhysicalAttack,물리 공격력
+MagicAttack,술법 공격력
+PhysicalDefense,물리 방어력
+MagicDefense,술법 방어력
+Accuracy,명중
+Dodge,회피
+Critical,치명
+AvoidCritical,치명회피
+CriticalOutcome,치명피해
+ReducePhysicalDef,물리 방어 무시
+ReduceMagicDef,술법 방어 무시
+Luck,행운
+ManaCost,마력소모
+ActingPointMax,최대 행동력
+RecommendCombatpoint,권장 전투력
+SlotNumber,체질 대상 슬롯
+MasteryCount,체질 레벨
+Description,설명
+DetailDescription,상세 설명
+MasteryItemUseId1,필요 재료 #1
+MasteryItemUseId1Count,체질 재료 1 개수
+MasteryItemUseId2,필요 재료 #2
+MasteryItemUseId2Count,체질 재료 2 개수
+MasteryItemUseId3,필요 재료 #3
+MasteryItemUseId3Count,체질 재료 3 개수
+MasteryItemUseId4,필요 재료 #4
+MasteryItemUseId4Count,체질 재료 4 개수
+MasteryCostValueType,체질 강화 재화
+MasteryCostValue,체질 재화 수치
+MasterySuccessProbability,체질 강화 성공 확률	
+Status1Type,체질 증가 능력치 1		
+Status1Value,증가 능력치 1 수치
+Status2Type,체질 증가 능력치 2
+Status2Value,증가 능력치 2 수치
+StepGrade,제한 단계 구분
+MaxLv,최대 제한 레벨
+CapMaterialUseId1,체질 승급 재료 1
+CapMaterialUseId1Count,체질 승급 재료 1 개수
+CapMaterialUseId2,체질 승급 재료 2
+CapMaterialUseId2Count,체질 승급 재료 2 개수
+CapMaterialUseId3,체질 승급 재료 3
+CapMaterialUseId3Count,체질 승급 재료 3 개수
+CapMaterialUseId4,체질 승급 재료 4
+CapMaterialUseId4Count,체질 승급 재료 4 개수
+CapStepCostType,체질 강화 비용 타입
+CapStepCost,체질 강화 비용
+CapStepStatus1,체질 승급 능력치 1
+CapStepStatus1Value,체질 강화 값 1
+CapStepStatus2,체질 승급 능력치 2
+CapStepStatus2Value,체질 강화 값 2
+CapStepStatus3,체질 승급 능력치 3
+CapStepStatus3Value,체질 강화 값 3
+CapStepStatus4,체질 승급 능력치 4
+CapStepStatus4Value,체질 강화 값 4
+CapStepStatus5,체질 승급 능력치 5
+CapStepStatus5Value,체질 강화 값 5
+CapStepStatus6,체질 승급 능력치 6
+CapStepStatus6Value,체질 강화 값 6
+CapStepStatus7,체질 승급 능력치 7
+CapStepStatus7Value,체질 강화 값 7
+CapStepStatus8,체질 승급 능력치 8
+CapStepStatus8Value,체질 강화 값 8
+BloodLevel, 혈맥 레벨
+TrainingCost_Spirit, 필요 진기량
+ForcePanelID,내공판 그룹 ID
+ForceLevelID,내공판 ID
+ForcePanelLevel,내공 판의 레벨
+ForceReward_Attribute01Type,보상 스탯 #1
+ForceReward_Attribute01Value,내공 판 레벨 보상 밸류1
+ForceReward_Attribute02Type,보상 스탯 #2
+ForceReward_Attribute02Value,내공 판 레벨 보상 밸류2
+ForceReward_Attribute03Type,보상 스탯 #3 
+ForceReward_Attribute03Value,내공 판 레벨 보상 밸류3
+ForceReward_Attribute04Type,보상 스탯 #4
+ForceReward_Attribute04Value,내공 판 레벨 보상 밸류4
+ForceReflowTimeMinute,주화입마 시간 (분)
+HardTraining_NeedLevel,내공 승급 가능 레벨
+HardTraining_NeedCostId,내공 승급 비용
+HardTraining_NeedCostCount,내공 승급 요구 비용 량
+HardTraining_NeedUseId01,내공 승급 아이템 #1
+HardTraining_NeedItem01Count,필요 수량 #1
+HardTraining_NeedUseId02,내공 승급 아이템 #2
+HardTraining_NeedItem02Count,필요 수량 #2
+HardTraining_NeedUseId03,내공 승급 아이템 #3
+HardTraining_NeedItem03Count,필요 수량 #3
+HardTraining_NeedUseId04,내공 승급 아이템 #4
+HardTraining_NeedItem04Count,필요 수량 #4
+HardTraining_Time,내공 승급 진행 시간
+HardTraining_Pass_NeedUseId	uint32,즉시 승급 요구 아이템 UseId
+HardTraining_Pass_NeedItem_UseTime,즉시 승급 시 차감 시간
+HardTraining_Succecs_ForceLevel,수련완료 시 부여될 내공 갑자
+TrainingCost_Spirit	uint16,이 레벨로 도달하기 위해 수련에 필요한 진기량
+Blood1_Training_NeedUse01Id,1번 혈맥 필요 아이템 #1
+Blood1_Training_NeedItem01Count,1번 혈맥 필요 수량 #1
+Blood1_Training_NeedUse02Id,1번 혈맥 필요 아이템 #2
+Blood1_Training_NeedItem02Count,1번 혈맥 필요 수량 #2
+Blood2_Training_NeedUse01Id,2번 혈맥 필요 아이템 #1
+Blood2_Training_NeedItem01Count,2번 혈맥 필요 수량 #1
+Blood2_Training_NeedUse02Id,2번 혈맥 필요 아이템 #2
+Blood2_Training_NeedItem02Count,2번 혈맥 필요 수량 #2
+Blood3_Training_NeedUse01Id,3번 혈맥 필요 아이템 #1
+Blood3_Training_NeedItem01Count,3번 혈맥 필요 수량 #1
+Blood3_Training_NeedUse02Id,3번 혈맥 필요 아이템 #2
+Blood3_Training_NeedItem02Count,3번 혈맥 필요 수량 #2
+Blood4_Training_NeedUse01Id,4번 혈맥 필요 아이템 #1
+Blood4_Training_NeedItem01Count,4번 혈맥 필요 수량 #1
+Blood4_Training_NeedUse02Id,4번 혈맥 필요 아이템 #2
+Blood4_Training_NeedItem02Count,4번 혈맥 필요 수량 #2
+TrainingChanceSuccess,강화 성공 확률
+TrainingChanceFail,강화 실패 확률
+TrainingChanceCriticalFail,주화입마 확률
+Blood1_AttributeType,1번 혈맥 스탯
+Blood1_AttributeValue,1번 혈맥 값
+Blood2_AttributeType,2번 혈맥 스탯
+Blood2_AttributeValue,2번 혈맥 값
+Blood3_AttributeType,3번 혈맥 스탯
+Blood3_AttributeValue,3번 혈맥 값
+Blood4_AttributeType,4번 혈맥 스탯
+Blood4_AttributeValue,4번 혈맥 값
+HardTraining_ForcePanelLevel,내공 갑자 레벨
+ClassId,클래스
+ShowOnOff,오픈 연출
+DefaultBtnType,오픈 전 버튼 상태
+OpenConditionType,오픈 조건
+OpenConditionValue,조건 값
+PlanAlramType,예정 알림 조건
+PlanAlramValue,알림 참조 값
+TutorialGroupId,튜토리얼 그룹
+Textkr,컨텐츠
+AccountType,계정구분
+DungeonId,토벌ID
+SDName,비정봉ID
+Stage_ID,스테이지ID
+IsShow,UI에서 던전 노출 여부
+TitleSId,타이틀
+DungeonKind,던전 종류 구분
+MemberKind,타입
+RecommendedPerson,권장 인원
+OccupationID,토벌 지역
+ConditionReqCombatPoint,입장 조건 - 전투력
+NeedEnterType,티켓 필요 여부
+NeedEnterTypeSub,필요 티켓
+NeedEnterCount,필요 수량
+DungeonCoolTime,재입장 대기시간
+RecommendedCombatPoint,권장 전투력
+Timeset,진행 시간
+RewardExp,보상 경험치
+RewardCost01Id,보상 재화 #1
+RewardCost01Count,보상 재화 량 #1
+RewardCost02Id,보상 재화 #2
+RewardCost02Count,보상 재화 량 #2
+Levelofdifficulty,던전 난이도
+Stage_Story,던전 설명
+DungeonSchedule,던전 Default 스케줄
+DropID01,기본 보상
+DropID02,보너스 보상
+GuildContributionReward,문파 공헌도
+FirstClearRewardType1,첫 클리어 보상 #1
+FirstClearRewardTypeSub1,첫 클리어 보상 타입 Sub1
+FirstClearRewardValue1,첫 클리어 보상 #1 개수
+FirstClearRewardType2,첫 클리어 보상 #2
+FirstClearRewardTypeSub2,첫 클리어 보상 타입 Sub2
+FirstClearRewardValue2,첫 클리어 보상 #2 개수
+FirstClearRewardType3,첫 클리어 보상 #3
+FirstClearRewardTypeSub3,첫 클리어 보상 타입 Sub3
+FirstClearRewardValue3,첫 클리어 보상 #3 개수
+FirstClearRewardType4,첫 클리어 보상 #4
+FirstClearRewardTypeSub4,첫 클리어 보상 타입 Sub4
+FirstClearRewardValue4,첫 클리어 보상 #4 개수
+FirstClearRewardType5,첫 클리어 보상 #5
+FirstClearRewardTypeSub5,첫 클리어 보상 타입 Sub5
+FirstClearRewardValue5,첫 클리어 보상 #5 개수
+GuildClearRewardType1,문파 보상 #1
+GuildClearRewardTypeSub1,완료시 문파 지급 보상 타입 Sub1
+GuildClearRewardValue1,완료시 문파 지급 보상 값1
+GuildClearRewardType2,문파 보상 #2
+GuildClearRewardTypeSub2,완료시 문파 지급 보상 타입 Sub2
+GuildClearRewardValue2,완료시 문파 지급 보상 값2
+GuildClearRewardType3,문파 보상 #3
+GuildClearRewardTypeSub3,완료시 문파 지급 보상 타입 Sub3
+GuildClearRewardValue3,완료시 문파 지급 보상 값3
+GuildMemberClearRewardType1,완료시 문파원 전체 지급 보상 타입1
+GuildMemberClearRewardTypeSub1,완료시 문파원 전체 지급 보상 타입 Sub1
+GuildMemberClearRewardValue1,완료시 문파원 전체 지급 보상 값1
+GuildMemberClearRewardType2,완료시 문파원 전체 지급 보상 타입2
+GuildMemberClearRewardTypeSub2,완료시 문파원 전체 지급 보상 타입 Sub2
+GuildMemberClearRewardValue2,완료시 문파원 전체 지급 보상 값2
+GuildMemberClearGiftId,문파 선물
+GuildChallangeReward01,보스 클리어 보상 #1
+GuildChallangeReward02,보스 클리어 보상 #2
+GuildChallangeReward03,보스 클리어 보상 #3
+GuildChallangeReward04,보스 클리어 보상 #4
+GuildChallangeReward05,보스 클리어 보상 #5
+MissionId,임무 ID
+MissionShowType,미션표시여부
+MissionTapMenu,임무 탭 메뉴
+MissionIconType,임무 트래커 아이콘
+IconKindType,임무페이지 아이콘 출력
+StepNo,미션 단계
+MissionAutoInvest,임무자동부여
+AutomaticAction,임무자동진행여부
+MissionCombatPower,권장 전투력
+MissionOpenCondition,미션 부여 오픈 조건
+MissionOpenConditionValue,미션 오픈 조건 값
+StageGroup,지역 그룹
+MissionMiniGroupId,미션 지역 카테고리
+MissionInvestNPC,미션 수락 NPC
+HintNPC,힌트 NPC
+HintCinematicDialogueID,힌트 대화연출
+CinematicDialogueType,대화 연출 타입
+CinematicDialogueID,대화 연출 ID
+MissionType,임무 유형
+HelperType,헬퍼 타입
+BattleType,퀘스트 전투 Ai
+PcTargetSearchDist,PC 타켓 검색 범위
+MissionRepeat,미션 반복 여부
+MissionRepeatCount,미션 반복 횟수
+CountIndication,카운트 표시 여부
+MissionGetStageId,미션 수락 스테이지
+MissionStageId,미션 스테이지
+MissionCoordinate,미션 좌표
+PhaseExitCoordinate,위상 재시작 좌표
+EffectId,이펙트 ID
+MissionCloseCondition,미션 종료 조건
+MissionCloseConditionValue,미션 종료 조건 값
+ContentOpenPage,컨텐츠 오픈 페이지
+CountSmallTalk,조건부 미니대화
+MissionObjectiveSID,임무 목표
+RewardEXP,보상 경험치
+RewardGOLD,동전 보상
+RewardGoodsType,기타 재화 보상
+RewardGoodsCount,재화 보상 량
+RewardItemCount01,보상 개수 #1
+RewardItemCount02,보상 개수 #2
+TestValue,TestValue
+RequestId,의뢰 ID
+RequestIndex,의뢰 인덱스
+RequestShowType,의뢰표시여부
+RequestIconType,의뢰 트래커 아이콘
+RequestStageVisible,수행지역 감춤
+PartyMember,파티 인원수
+RequestHint,의뢰 힌트
+RequestStory,의뢰 스토리
+StoryNo,줄거리출력
+RequestCombatPower,의뢰 권장 전투력
+LockInvisible,잠긴 의뢰 숨기기
+RequestOpenCondition,의뢰 오픈 조건
+RequestOpenConditionValue,조건 내용
+AcceptMoveNPC,수락NPC이동제어
+AcceptNPC,수락 NPC
+AcceptCinematicDialogueID,수락 대화연출
+MapNpcShowType,NPC 미니맵 표시 여부
+Parameter1,목표 값 #1
+Parameter2,목표 값 #2
+Parameter3,목표 값 #3
+AutoBattleType,자동전투 On/Off
+CoordinateRange,완료 좌표 범위
+StringMESSAGE,스트링 출력 컬럼
+RequestGetStageId,지역
+RequestStageId,의뢰 스테이지
+ViaCoordinate,경유 좌표
+RequestCoordinate,의뢰 좌표
+CoordinateShowType,완료좌표 미니맵 표시 여부
+RequestObjectiveSID,임무 목표
+DefCriticalOutcome,받는치명 피해 감소
+MonAttackDamage,몬스터의 피해 증가
+MonDefense,몬스터의 피해 감소
+DefSmiteSkillDamage,받는 강타 피해 감소
+DarkdefenseDamage,암흑 피해
+SkillDamage,스킬 피해
+DefSkillDamage,받는 스킬 피해 감소
+AtkAllDamage,모든 피해
+DefAllDamage,모든 피해 감소
+StunPer,기절 확률 증가
+DefStunPer,기절 확률 감소
+KnockDownPer,넉다운 확률 증가
+DefKnockDownPer,넉다운 확률 감소
+SmiteBuffPer,강타 확률 증가
+DefSmiteBuffPer,강타 확률 감소
+DeBuffPer,약화 확률 증가
+DefDeBuffPer,약화 확률 감소
+CursePer,저주 확률 증가
+DefCursePer,저주 확률 감소
+CombatPower,전투력
+QuestDailyHomeworkId, 미션 ID
+QuestDailyHomeworkTitleSID, 일일과제 제목
+QuestDailyHomeworkTextSID, 일일과제 설명 
+MissionType,유형
+RewardGOLD,동전 보상
+RewardGoodsType,보상 굿즈 타입
+RewardGoodsCount,보상 굿즈 개수
+RewardItem01Id,보상 아이템 #1
+RewardItem01Count,보상 수량 #1
+RewardItem02Id,보상 아이템 #2
+RewardItem02Count,보상 수량 #2
+AchievementId,업적 ID
+AchievementName,업적 이름
+AchievementCategory,업적 카테고리
+CombatPower_02,권장전투력
+EnableCombatPower,입장 전투력
+RecommendedPerson,권장 인원
+ClassItem01,보상 아이템 #1
+ClassItem02,보상 아이템 #2
+ClassItem03,보상 아이템 #3
+ClassItem04,보상 아이템 #4
+ClassItem05,보상 아이템 #5
+RideSpeed,탈것 이동 속도
+FastRideSpeed,탈것 가속 이동 속도
+FastRideSec,탈것 가속 유지 시간
+UnlockNeedCostType,구입 아이템 타입
+UnlockNeedCostId,잠금 해제 아이템
+UnlockNeedCostValue,잠금 해제 수량
+OpenAttributeType,오픈 효과
+OpenAttributeValue,오픈 효과 수치
+AttributeType01,능력치타입1
+AttributeValue01,능력치수치1
+AttributeType02,능력치타입2
+AttributeValue02,능력치수치2
+AttributeType03,능력치타입3
+AttributeValue03,능력치수치3
+AttributeType04,능력치타입4
+AttributeValue04,능력치수치4
+AttributeType05,능력치타입5
+AttributeValue05,능력치수치5
+AttributeType06,능력치타입6
+AttributeValue06,능력치수치6
+AttributeType07,능력치타입7
+AttributeValue07,능력치수치7
+AttributeType08,능력치타입8
+AttributeValue08,능력치수치8
+ObjectGatherType,채집 오브젝트 타입
+ObjectType,오브젝트 타입
+CastingDesc,캐스팅 안내문구 ID
+ResourceId,리소스 ID
+ObjectScale,오브젝트 스케일
+ObjectNameOnOff,이름 출력 on/off
+InteractionValue,인터렉션 페이백
+CollectActivationType,채집 활성화 조건
+CollectActivationValue,채집 활성화 조건 값
+AlwaysVisible,퀘스트 오브젝트 on/off 여부
+CollectQualificationType,채집 조건 타입
+CollectQualificationValue,채집 조건 값
+CollectMethod,수집 방법
+InteractionRange,인터렉션 범위
+ProgressRange,채광, 수집 진행 범위
+BroadcastingSize,브로드캐스팅
+CollectCountMin,수집 가능 횟수 최소값
+CollectCountMax,수집 가능 횟수 최대값
+CastingTime,수집 소요시간
+FixedDropItemId,확정드랍 아이템
+IconCoordinate,채집 아이콘 출력 위치
+DecalScale,데칼 크기 설정
+CollectAniType,채집 애니 타입
+ObjectLoopFxId,오브젝트 루프 이펙트
+ObjectGenFxId,오브젝트 젠 이펙트
+ObjectAniOnOff,젠 동작 여부
+ABPLink,젠 동작 애니메이션 블루프린트
+ObjectDisappearTime,오브젝트 사라지는 시간
+DropItemId,드랍 아이템
+MonGenType,몬스터 젠타입
+MonsterID,몬스터 ID
+SpawnCount,몬스터 리젠 수량
+SpawnRange,소환 범위
+MonGenValue,몬스터가 소환될 확률
+LinkOccupationId,연결된 점령전 아이디
+GetWayType,획득경로 2차 타입
+GenMessageStringTemplateIdTitle,젠 될때 알림 메시지 제목
+GenMessageStringTemplateIdContent,젠 될때 알림 메시지 내용
+BuildingStepId,건물단계 ID
+GreatBuildingId,위업 ID
+BuildingStep,위업 단계
+BuildingCombat,전투력
+AchievementIdCondition01,업적조건01
+AchievementIdConditionString01,달성 조건 #1
+AchievementIdContentsId01,콘텐츠ID01
+AchievementIdCondition02,업적조건02
+AchievementIdConditionString02,달성 조건 #2
+AchievementIdContentsId02,콘텐츠ID02
+AchievementIdCondition03,업적조건03
+AchievementIdConditionString03,달성 조건 #3
+AchievementIdContentsId03,콘텐츠ID03
+BuildingIdCondition01,건물조건 #1
+BuildingIdCondition02,건물조건 #2
+BuildingIdCondition03,건물조건 #3
+NeedType01,조건타입01
+NeedID01,조건타입참조값01
+NeedUseID01,타입Use참조값01
+NeedCount01,필요 재화 #1
+NeedType02,조건타입02
+NeedID02,조건타입참조값02
+NeedUseID02,타입Use참조값02
+NeedCount02,필요 재화 #2
+NeedType03,조건타입03
+NeedID03,조건타입참조값03
+NeedUseID03,타입Use참조값03
+NeedCount03,필요 재화 #3
+NeedType04,조건타입04
+NeedID04,조건타입참조값04
+NeedUseID04,타입Use참조값04
+NeedCount04,필요 재화#4
+UpgradeTime,업그레이드 소요시간(초)
+GuildHelpTime,문파 지원시 차감시간(초)
+ClassType,클래스별보상
+EffectType01,보상타입01
+EffectValue01,타입참조값01
+EffectNum01,참조값01
+EffectString01,달성보상 #1
+EffectIcon01,아이콘01
+EffectType02,보상타입02
+EffectValue02,타입참조값02
+EffectNum02,참조값02
+EffectString02,달성보상 #2
+EffectIcon02,아이콘02
+EffectType03,보상타입03
+EffectValue03,타입참조값03
+EffectNum03,참조값03
+EffectString03,달성보상 #3
+EffectIcon03,아이콘03
+EffectType04,보상타입04
+EffectValue04,타입참조값04
+EffectNum04,참조값04
+EffectString04,달성보상 #4
+EffectIcon04,아이콘04
+MoneyId,재화
+MoneyIdChain,듀얼 재화
+MoneyIValue,가격
+MarketUId,현금 결제 정보
+MileageId,마일리지 ID
+MileageValue,마일리지 액수
+GachaIntervalTime,무료 가챠 갱신 시간
+GachaDiscountValue,가챠 한번 더 할인
+LimitServer,서버 구매 개수 제한
+LimitServerCount,서버 구매 제한 개수
+LimitTarget,구매 제한 대상
+LimitCountType,구매 제한 타입
+LimitCountValue,구매 제한 횟수
+LimitLevelMin,최소 레벨 제한
+LimitLevelMax,최대 레벨 제한
+DiscountRate,할인 금액
+IncreaseRate,증액 개수
+RandomRate,랜덤 선택 확률
+PopUpType,상세 팝업 타입
+EventId,이벤트 ID
+IconId,상품 아이콘 아이디
+EffectId,상품 이팩트 아이디
+OrderNum,정렬 순서
+TagIconId,태그 아이콘
+DisplayOnOff,디스 플레이
+OnOFF,상품 표시
+RandomGetId,랜덤 겟 ID
+OpenEffect,발동 연출 설정
+ItemId,아이템 ID
+RewardProbability,보상 선택 확률
+RewardType,보상 종류
+RewardId,보상 세부 값
+RewardValue,보상 개수
+ItemId,아이템 아이디
+Buffid,효과
+UseId,유즈 아이디
+NameStrId,이름
+NameSid,이름
+NoteSid,설명
+MeshId,메쉬 아이디
+Icon,아이콘
+Level,레벨업 레벨
+ItemNumber,아이템 번호
+MainType,아이템 타입
+SubType,서브 타입
+ClassId,클래스
+ReqClassLevel,클래스 레벨 제한
+Tier,티어
+Grade,등급
+SellType,판매 타입
+SellPrice,판매 가격
+Trade,거래소 거래
+Stackable,최대 겹침개수
+Attribute1Type,능력#1
+Attribute1Value,능력 #1
+Attribute2Type,능력#2
+Attribute2Value,능력 #2
+Attribute3Type,능력#3
+Attribute3Value,능력 #3
+Attribute4Type,능력#4
+Attribute4Value,능력 #4
+Attribute5Type,능력#5
+Attribute5Value,능력 #5
+SpecialAttribute1Open,특수 능력 1 오픈 값
+SpecialAttribute1Type,특수 능력치 1 타입
+SpecialAttribute1Value,특수 능력치 1 수치 값
+SpecialAttribute2Open,특수 능력 2 오픈 값
+SpecialAttribute2Type,특수 능력치 2 타입
+SpecialAttribute2Value,특수 능력치 2 수치 값
+SpecialAttribute3Open,특수 능력 3 오픈 값
+SpecialAttribute3Type,특수 능력치 3 타입
+SpecialAttribute3Value,특수 능력치 3 수치 값
+PassiveId01,패시브정보
+CoolTime,재사용 대기시간
+AttributionType,귀속 타입
+RandomOptionCountMax,랜덤 옵션 개수 최대
+RandomOptionGroupId,랜덤 옵션 그룹 아이디
+SetGroupId,세트 아이디
+ReinforceMaxLv,레벨업 최대 레벨
+SmeltingMaxCount,강화 최대 수치
+SmeltingEffectType,무기 강화 이팩트
+JewelUpgradeType,보석 강화 타입
+JewelUpgradeCount,보석 강화 수치
+JewelComposePermission,보석 승급 권한
+JewelComposeType,보석 승급 타입
+PolishPermission,연마 가능 여부
+SummonGroupId,소환 몬스터 그룹 ID
+CastingType,캐스팅 사용 여부
+CastingTime,캐스팅 시간 설정
+SummonStageType,소환 지역
+ItemCasting,캐스팅 안내문구
+CollectAniType,채집 애니 타입
+GetWayId,획득경로
+OverlapEquipAble,정령 아이템 중복 장착
+UnsealingType,봉인해제 타입
+OpenboxRewardType,공통 연결 ID의 타입 구분
+OpenboxRewardId,지급 품목
+RandomGetCnt,랜덤 겟 횟수 값
+Durability,내구도
+Durability_RepairAble,수리불가
+IconTemp,임시아이콘
+TradeType,거래소 거래
+UseTimeType,기간제 타입
+UseEndType_Period,기간제 시간 설정
+UseEndType_Minute,시간제 시간 설정
+PackageId,패키지 ID
+OpenEffect,발동 연출 설정
+RewardType1,보상 종류1
+RewardId1,보상 세부 값1 배열
+RewardValue1,보상 개수1
+RewardType2,보상 종류2
+RewardId2,보상 세부 값2
+RewardValue2,보상 개수2
+RewardType3,보상 종류3
+RewardId3,보상 세부 값3
+RewardValue3,보상 개수3
+RewardItem1,보상 아이템1
+RewardItemValue1,아이템 개수1
+RewardItem2,보상 아이템2
+RewardItemValue2,아이템 개수2
+RewardItem3,보상 아이템3
+RewardItemValue3,아이템 개수3
+RewardItem4,보상 아이템4
+RewardItemValue4,아이템 개수4
+RewardItem5,보상 아이템5
+RewardItemValue5,아이템 개수5
+RewardItem6,보상 아이템6
+RewardItemValue6,아이템 개수6
+RewardItem7,보상 아이템7
+RewardItemValue7,아이템 개수7
+AttributeValue03,능력치수치3
+PkOnOff,PK 가능여부
+PkPenalty,성향 패널티
+PKtendency,성향 패널티
+DeathPenalty_Steal,유실물 드랍 패널티
+DeathPenalty_EXP,경험치 패널티
+DeathPenalty_Durability,내구도 패널티
+DeathPenalty_Injure,내상 패널티
+PkSteal,약탈 패널티
+PkDurability,내구도 감소
+StealMinCount,약탈 최소 수량
+StealMaxCount,약탈 최대 수량
+LevelParam,레벨 가중치
+DropItemProbability01,드랍 확률
+DropItemGradeMin01,드랍 최소 등급
+DropItemGradeMax01,드랍 최대 등급
+DropItemRatioMin01,드랍 최소 비율
+DropItemRatioMax01,드랍 최대 비율
+DropItemProbability02,드랍 확률
+DropItemGradeMin02,드랍 최소 등급
+DropItemGradeMax02,드랍 최대 등급
+DropItemRatioMin02,드랍 최소 비율
+DropItemRatioMax02,드랍 최대 비율
+EnableLevel,입장레벨
+EnableQuest,해당 퀘스트 완료시 입장 가능
+StageType,지역 타입
+PetId,정령Id
+NameId,이름
+Tier,등급
+Skillid01,1번 스킬
+Skillid02,2번 스킬
+Skillid03,3번 스킬
+Skillid04,4번 스킬
+Skillid05,5번 스킬
+UnlockNeedItemUseId,획득 요구 아이템
+UpgradeNeedItemId01,승급 필요 아이템1
+UpgradeNeedItemId02,승급 필요 아이템2
+UpgradeNeedMoneyId,승급 머니
+UpgradeNeedMoneyValue,승급 머니 수량
+AttackType,공격 타입
+AttackUseType,공격 사용 타입
+TargetType,스킬 사용 대상
+TargetSubType,사망한 대상 스킬 적용
+DamageType,데미지 종류
+MulDamage,대미지 계수
+LevelUpMulDamage,레벨 추가 계수
+AddDamage,추가 데미지
+LevelUpAddDamage,레벨 추가 데미지
+MagicDamage,술법 대미지 계수
+LevelUpMagicDamage,술법 레벨 계수
+AddMagicDamage,술법 추가 데미지
+LevelUpAddMagicDamage,술법 레벨 추가 데미지
+CrowdControlType,상태이상 종류
+CrowdControlTime,상태이상 지속시간
+RewardItemValue7,아이템 개수7
+ShopItemId,상점 아이템 ID
+ShopId,상점 번호
+NeedCostId01,구매 재화 종류
+NeedCostCount01,구매 재화 비용
+NeedCostId02,구매 재화 종류 #2
+NeedCostCount02,구매 재화 비용 #2
+ResultItemId,판매 아이템
+ResultItemIdCount,판매 아이템 개수
+AccountType,계정구분
+ListGroupString,등급
+StartDate,시작 기간
+EndDate,종료 기간
+EffectAttributeValue,추가 능력치
+EffectString,보상 능력치
+ItemUseId01,필요 아이템 #1
+Smelting01,강화 수치 #1
+ItemUseId02,필요 아이템 #2
+Smelting02,강화 수치 #2
+ItemUseId03,필요 아이템 #3
+Smelting03,강화 수치 #3
+ItemUseId04,필요 아이템 #4
+Smelting04,강화 수치 #4
+ItemUseId05,필요 아이템 #5
+Smelting05,강화 수치 #5
+ItemUseId06,필요 아이템 #6
+Smelting06,강화 수치 #6
+ItemUseId07,필요 아이템 #7
+Smelting07,강화 수치 #7
+ItemUseId08,필요 아이템 #8
+Smelting08,강화 수치 #8
+RelationId,ID
+메인 퀘스트,메인 퀘스트
+RelationMenuName,에피소드
+RelationCategory,카테고리
+RelationQuestStep,스텝
+RelationQuestGrade,등급
+RewardMissionId,보상 임무
+RelationTitleSID,기연 제목
+RelationQuestInfoSID,단서
+RelationCompleteInfoSID,완료 내용
+MissionInfoSID,미션 정보
+MissionType,임무 유형
+MissionTarget,목표 대상
+ConditionType,달성 조건
+MissionCondition,선행 의뢰
+ConditionCoordinate,목표 좌표
+Parameter1,값1
+Parameter2,값2
+Parameter3,값3
+MissionStageId,완료 지역
+RewardEXP,경험치
+RewardGOLD,골드
+RewardGoodsType,타입
+RewardGoodsCount,수량
+RewardItemId01,보상 #1
+RewardItemCount01,수량 #1
+RewardItemId02,보상 #2
+RewardItemCount02,수량 #2
+RewardItemId03,보상 #3
+RewardItemCount03,수량 #3
+RewardItemId04,보상 #4
+RewardItemCount04,수량 #4
+RewardItemId05,보상 #5
+RewardItemCount05,수량 #5
+RewardItemId06,보상 #6
+RewardItemCount06,수량 #6
+itemid,아이템ID
+MonGrade,몬스터 등급
+Edid,정예 아이디
+StageID,사냥터 이름
+BossMonsterID,보스 이름
+Labyrinthid,미궁 아이디
+Stageid,미궁 이름
+StageBoss,보스 이름
+UwID,비곡 아이디
+Monsterid,몬스터 아이디
+level,레벨
+StageNameSID,지역 이름
+AchievementText,업적 설명
+command,명령어
+string,결과
+TitleString,보감 이름
+QuestTitleSID,퀘스트 이름
+QuestMissionSID,퀘스트 내용
+QuestLevel,진행레벨
+MonsterId,몬스터ID
+TargetCount,목표 횟수
+MissionTitleSID,임무 이름
+RequestTitleSID,의뢰 이름
+BuildingName,위업 이름
+EdID,ID
+ObjectId,오브젝트ID
+ObjectNameSid,오브젝트 이름
+CombatPower_Boss,보스 전투력
+shopid,상점ID
+namesid,이름
+Classid,클래스
+Skillid,스킬ID
+VehicleId,탈것ID
+wepon_item,획득 가능 장비
+etc_item,획득 가능 아이템
+StealStageType,스테이지 타입
+PkGradeType,성향 등급
+StealProbability,약탈될 확률
+StealRatioMin,약탈 최소 비율
+StealRatioMax,약탈 최대 비율
+StealMaxCount,최대 약탈 수치
+DropItemProbability,아이템 드랍 확률
+DropItemKindCountMin,아이템 드랍 최소 수량
+DropItemKindCountMax,아이템 드랍 최대 수량
+DropItemGradeMin,드랍 아이템 최소 등급
+DropItemGradeMax,드랍 아이템 최대 등급
+DropItemRatioMin,드랍 아이템 최소 비율
+DropItemRatioMax,드랍 아이템 최대 비율
+SmetingCount,강화 단계
+SmeltingCount,강화 단계
+IncreaseCount01,강화 수치 #1
+IncreaseProbability01,+1 확률
+IncreaseCount02,강화 수치 #2
+IncreaseProbability02,+2 확률
+IncreaseCount03,강화 수치 #3
+IncreaseProbability03,+3 확률
+IncreaseCount04,강화 수치 #4
+IncreaseProbability04,+4 확률
+SmetingSuccessProbability,성공 확률
+KeepProbability,실패 확률
+CompensationProbability,강화 실패 보정 확률
+DownProbability,단수 하락 확률
+BreakProbability,장비 파괴 확률
+MaterialItemId01,강화 재료 #1
+MaterialItemCount01,강화 재료 #1 갯수
+MaterialItemId02,강화 재료 #2
+MaterialItemCount02,강화 재료 #2 갯수
+MaterialCostValueType01,강화 비용 #1
+MaterialCostValue01,강화 1 비용
+MaterialCostValueType02,강화 비용 #2
+MaterialCostValue02,강화 2 비용
+AddSmeltingSuccessProbability,추가 강화 성공 확률
+ExpdId,원정ID
+ExpdNameId,원정 이름
+ReqCombatPoint,입장전투력
+QuestID,퀘스트ID
+ReqCombatPoint,입장전투력
+SDgnLocationID,비밀 던전 입장 좌표
+SDgnDescSID,비밀 던전 설명
+SDgnPCPower,권장 전투력
+SDgnHelperTitle,입장권 트래커 제목
+SDgnHelperDesc,입장권 트래커 내용
+SDgnTimer,던전 만료 시간(초)
+MagicSquareId,마방진ID
+SquareName,마방진 이름
+SquareInfo,마방진 정보
+NeedLevel,입장 조건 - 레벨
+PCPower,기준 레벨
+MagicSquareStageId,마방진ID
+StageId,지역 ID
+StageInfo,지역 정보
+PositionLocation,입장 좌표
+SDgnNameSID,비정봉 이름
+SDgnShortDescSID,비정봉 간략 설명
+QuestID,퀘스트ID
+UnlockConditionStage1,선행 조건 #1
+UnlockConditionStage2,선행 조건 #2
+GenCostType1,생성 비용 #1
+GenCostTypeSub1,비용 타입 #1
+GenCostValue1,생성 필요 값 #1
+GenCostType2,생성 비용 #2
+GenCostTypeSub2,비용 타입 #2
+GenCostValue2,생성 필요 값 #2
+GenCostType3,생성 비용 #3
+GenCostTypeSub3,비용 타입 #3
+GenCostValue3,생성 필요 값 #3
+GenCostTypeAdd,생성 비용 #추가
+GenCostTypeSubAdd,비용 타입 #추가
+GenCostValueAdd,생성 필요 값 #추가
+NeedCostType,입장 조건
+NeedCostTypeSub,입장 조건 #2
+NeedCostValue,필요 값
+PCNum,권장 인원
+MonsterWeaknesstext,몬스터 약점
+ExpireTime,지속 시간
+Reward_DropItem,획득 가능한 재화
+ContentsId,분류
+ItemMakeId,제작ID
+TabHorizon,타입
+TabVertical,세로타입
+PreItemId,선행 제작 아이템
+MakeCount,제작 수량
+SpecialMaterialItemMainType,특수재료 타입
+SpecialMaterialItemSubType,특수재료 서브타입
+SpecialMaterialItemItemTier,특수재료 티어
+SpecialMaterialItemItemGrade,특수재료 등급
+SpecialMaterialItemItemCount,특수재료 수량
+SpecialMaterialItem01Id,특수재료 #1
+SpecialMaterialUse01Id,특수재료 UID#1
+SpecialMaterialItem01SmeltingCount,필요강화수치 #1
+SpecialMaterialItem02Id,특수재료 #2
+SpecialMaterialUse02Id,특수재료 UID#2
+SpecialMaterialItem02SmeltingCount,필요강화수치 #2
+SpecialMaterialItem03Id,특수재료 #3
+SpecialMaterialUse03Id,특수재료 UID#3
+SpecialMaterialItem03SmeltingCount,필요강화수치 #3
+SpecialMaterialItem04Id,특수재료 #4
+SpecialMaterialUse04Id,특수재료 UID#4
+SpecialMaterialItem04SmeltingCount,필요강화수치 #4
+MaterialItem01Id,재료아이템 #1
+MaterialUse01Id,재료아이템 UID #1
+MaterialItem01Count,필요수량 #1
+MaterialItem02Id,재료아이템 #2
+MaterialUse02Id,재료아이템 UID #2
+MaterialItem02Count,필요수량 #2
+MaterialItem03Id,재료아이템 #3
+MaterialUse03Id,재료아이템 UID #3
+MaterialItem03Count,필요수량 #3
+MaterialItem04Id,재료아이템 #4
+MaterialUse04Id,재료아이템 UID #4
+MaterialItem04Count,필요수량 #4
+NeedCost01Id,소모 재화 #1
+NeedCost01Count,소모량 #1
+NeedCost02Id,소모 재화 #2
+NeedCost02Count,소모량 #2
+SuccessProbability,제작 성공률
+LuckyProbability,대성공 확률
+LuckyBonusItemId,대성공시 지급 아이템
+LuckyBonusCount,지급 수량
+Guild_Daily_MissionId,활동보고 아이디
+Guild_Daily_MissionTitle,활동보고 이름
+Guild_Reward_Value1_1,길드 보상#1
+Guild_Reward_Value2_1,길드 보상#2
+Guild_Reward_Value3_1,길드 보상#3
+Guild_Reward_Value4_1,길드 보상#4
+Guild_Reward_Value5_1,길드 보상#5
+Personal_Reward_Value1_1,개인 보상#1
+Personal_Reward_Value2_1,개인 보상#2
+Personal_Reward_Value3_1,개인 보상#3
+Personal_Reward_Value4_1,개인 보상#4
+Personal_Reward_Value5_1,개인 보상#5
+Guild_Daily_Mission_MaxCnt,일일 최대 가능 횟수
+GiftLevel,레벨
+ReqExptoNextLevel,필요 경험치
+ReqOpenKeyNum,필요 황금 열쇠
+GuildGiftId,보상 상자
+GiftName,선물 이름
+IconGrade,선물 등급
+GiftExp,선물 경험치
+GiftGoldenKey,선물 열쇠 수
+GiftSelectCnt,선물 선택 수
+GiftId,길드선물 ID
+GiftReward,선물
+MaxMember,가입 가능 인원
+MaxAlliance,동맹 가능 문파
+MaxDeclaration,적대 가능 문파
+BuffConditionPartyType,파티 구분
+BuffConditionStageType,스테이지 구분
+Buffid,버프ID
+BuffName,버프 이름
+BuffValue_1,버프 값
+GradeNickNameId,직책 이름
+GradeMemberCount,직책 할당 인원
+Set_GradeOffice,관직 설정
+Set_GradeBuff,직책 버프 설정
+Set_GradePermission,직책 권한 설정
+GradeChangeBuffId,직책 버프 값
+WantedTime,척살 시간(분)
+WantedGrade,척살 등급
+GuildMoneyId,등록 문파재화
+RewardGuildContribution,보상 문파 공헌도
+RewardGuildFameCategory,보상 명성 카테고리
+RewardGuildFamePoint,보상 명성 값
+GuildShopItemId,아이템 이름
+GuildShopItemCnt,아이템 수량
+GuildShopItemRegCostType,등록 재화
+GuildShopItemRegCostTypeSub,등록 재화 타입
+GuildShopItemBuyCostType,구매 재화
+GuildShopItemBuyCostTypeSub,구매 재화 타입
+GuildShotReward,상자 아이템
+ListId,문파발전
+DevId,개발항목 ID
+DevNameStrId,개발항목 이름
+DevType,개발항목 타입
+DevExpStrId,개발항목 설명
+LevelUpExp,레벨업 필요 경험치
+DonationMoneyId,기부 재화
+DonationMoneyId_Sub,용옥
+Reward_DevExp,개발 경험치
+Reward_MoneyId2,문파 금전 보상
+Reward_GuildContribution,문파 공헌도
+Reward_MoneyId1,문파 포인트
+Reward_SkillPoint,기술 포인트
+MaxSkillPoint,기술 포인트 최대값
+Attribute1_Kind,혜택 종류#1
+Attribute1_Type,효과 #1
+Attribute1_Value,혜택 기본값#1
+Attribute2_Kind,혜택 종류#2
+Attribute2_Type,효과 값#2
+Attribute2_Value,혜택 기본값#2
+Attribute1_NameStrId,추가 효과 #1
+Attribute2_NameStrId,추가 효과 #2
+LevelUpMoneyId1,레벨업 재화#1
+LevelUpMoneyId2,레벨업 재화#2
+LevelUpMoneyId3,레벨업 재화#3
+LevelUpMoneyId4,레벨업 재화#4
+LevelUpTime,레벨업 기본 시간(분)
+LevelUpSuccessRate,레벨업 성공 확률
+LevelUpFailExpDown_Min,레벨업 실패시 경험치 다운 최소값
+LevelUpFailExpDown_Max,레벨업 실패시 경험치 다운 최대값
+BonusRate,보너스 발생 확률
+BonusMultiple,보너스 적용 배수
+DevPoint,기술력 포인트
+DevExpStrId,개발항목 설명
+UnsealingTime,봉인해제 시간
+SupportDecreaseTime,지원 시 감소 시간
+NeedCostId,소모 재화
+DevNameStrId,개발항목 이름
+SuccessComposeListID1,성공 보상 #전사
+SuccessComposeListID2,성공 보상 #술사
+SuccessComposeListID3,성공 보상 #도사
+SuccessComposeListID4,성공 보상 #석궁사
+SuccessComposeListID5,성공 보상 #무사
+FailComposeListID1,실패 보상 #전사
+FailComposeListID2,실패 보상 #술사
+FailComposeListID3,실패 보상 #도사
+FailComposeListID4,실패 보상 #석궁사
+FailComposeListID5,실패 보상 #무사
+GreatSuccessComposeListID1,대성공 보상 #전사
+GreatSuccessComposeListID2,대성공 보상 #술사
+GreatSuccessComposeListID3,대성공 보상 #도사
+GreatSuccessComposeListID4,대성공 보상 #석궁사
+GreatSuccessComposeListID5,대성공 보상 #무사
+ComposeGrade,등급
+maintype,타입
+SuccessRate,성공 확률
+GreatSuccessRate,대성공 확률
+Unlock1_DevId,잠금해제 조건 #1
+Unlock1_DevLevel,필요 레벨 #1
+Unlock2_DevId,잠금해제 조건 #2
+Unlock2_DevLevel,필요 레벨 #2
+Unlock3_DevId,잠금해제 조건 #3
+Unlock3_DevLevel,필요 레벨 #3
+Unlock4_DevId,잠금해제 조건 #4
+Unlock4_DevLevel,필요 레벨 #4
+DungeonTicketId,티켓ID
+ResetTimeHour,리셋 시간
+ResetTimeMin,리셋 시간(분)
+DefaultMax,기본 보유량
+LimitUserMax,최대 보유량
+TicketRechargeMax,재충전 상한
+SilenceUse,침묵 상태일때 스킬 사용
+SkillLevel,스킬 레벨
+PCLevel,필요 레벨
+SkillGrade,스킬 등급
+LevelUpCostType,필요 재화#1
+LevelUpCostValue,필요 재화 #1
+LevelUpCostType1,필요 재화#2
+LevelUpCostValue1,필요 재화 #2
+LevelUpUseItemId,필요 아이템 #1
+LevelUpItemValue,아이템 소모량 #1
+LevelUpUseItemId1,필요 아이템 #2
+LevelUpItemValue1,아이템 소모량 #2
+SkillCombatPoint,스킬 전투력
+SkillPower,스킬 위력
+Skillphysics,물리 스킬
+Skillmagic,술법 스킬
+SkillPassiveLevel_1,1레벨
+SkillPassiveLevel_2,2레벨
+SkillPassiveLevel_3,3레벨
+SkillPassiveLevel_4,4레벨
+SkillPassiveLevel_5,5레벨
+SkillPassiveLevel_6,6레벨
+SkillPassiveLevel_7,7레벨
+SkillPassiveLevel_8,8레벨
+SkillPassiveLevel_9,9레벨
+SkillPassiveLevel_10,10레벨
+ReqCheckQuest,오픈 조건
+DeckSlotNum,슬롯 숫자
+RideSpeed,이동 속도
+FastRideSpeed,가속도
+skill_combat_0,스킬 전투력 #1
+skill_combat_1,스킬 전투력 #2
+skill_combat_2,스킬 전투력 #3
+skill_combat_3,스킬 전투력 #4
+skill_ExplainSID_0,스킬 설명 #1
+skill_ExplainSID_1,스킬 설명 #2
+skill_ExplainSID_2,스킬 설명 #3
+skill_ExplainSID_3,스킬 설명 #4
+EquipSlotMaxCnt,슬롯 개수
+CoolTime,쿨타임
+Buff_0,발동 버프 #1
+Buff_1,발동 버프 #2
+Buff_2,발동 버프 #3
+SkillEffect,효과
+0_Days_1StartTime,시간 #1
+0_Days_1EndTime,종료 시간 #1
+1_Days_1StartTime,시간 #2
+1_Days_1EndTime,종료 시간 #2
+2_Days_1StartTime,시간 #3
+2_Days_1EndTime,종료 시간 #3
+3_Days_1StartTime,시간 #4
+3_Days_1EndTime,종료 시간 #4
+4_Days_1StartTime,시간 #5
+4_Days_1EndTime,종료 시간 #5
+5_Days_1StartTime,시간 #6
+5_Days_1EndTime,종료 시간 #6
+6_Days_1StartTime,시간 #7
+6_Days_1EndTime,종료 시간 #7
+7_Days_1StartTime,시간 #8
+7_Days_1EndTime,종료 시간 #8
+8_Days_1StartTime,시간 #9
+8_Days_1EndTime,종료 시간 #9
+9_Days_1StartTime,시간 #10
+9_Days_1EndTime,종료 시간 #10
+10_Days_1StartTime,시간 #11
+10_Days_1EndTime,종료 시간 #11
+11_Days_1StartTime,시간 #12
+11_Days_1EndTime,종료 시간 #12
+12_Days_1StartTime,시간 #13
+12_Days_1EndTime,종료 시간 #13
+ForcePanel_TitleStringID,내공판 이름
+ForcePanel_OpenItemID_1,오픈 아이템 #1
+ForcePanel_OpenItemValue_1,오픈 아이템 숫자#1
+ForcePanel_OpenItemID_2,오픈 아이템 #2
+ForcePanel_OpenItemValue_2,오픈 아이템 숫자#2
+ForcePanel_OpenItemID_3,오픈 아이템 #3
+ForcePanel_OpenItemValue_3,오픈 아이템 숫자#3
+UnlockNeedItemId,정령 획득 필요한 아이템
+12_Days_1EndTime,종료 시간 #13
+DominionDefaultTaxRate,흑철 세율
+영지,영지 이름
+exchangetype,타입
+moneyid_send,환전하는 재화
+moneyid_receive,환전되는 재화
+exchangerate,환전 비율
+donationrewardcontribution,문파 공헌 비율
+paycommissionrate,지급 수수료
+Exp,경험치
+BossID,보스 이름
+WarpAttachBuff,WarpAttachBuff
+AggroDecreaseRate,AggroDecreaseRate
+WarpCasting,WarpCasting
+SkillPassiveAddExp,SkillPassiveAddExp
+SkillPassiveGroupInitItemId,SkillPassiveGroupInitItemId
+RevivalHP,RevivalHP
+OccupationAuctionTenderDelayTime,OccupationAuctionTenderDelayTime
+GuildNicknameStringCount,GuildNicknameStringCount
+CharacterCostumeTitleItemId,CharacterCostumeTitleItemId
+CharacterCostumeTitleItemUseId,CharacterCostumeTitleItemUseId
+CharacterCostumeTitleItemCount,CharacterCostumeTitleItemCount
+CustomizeItemId,CustomizeItemId
+CustomizeItemUseId,CustomizeItemUseId
+CustomizeItemCount,CustomizeItemCount
+PossessionLifePoint,PossessionLifePoint
+VehicleExpSec,VehicleExpSec
+ShowdownRequstDistance,ShowdownRequstDistance
+ShowdownRingRange,ShowdownRingRange
+DuelFlagId,DuelFlagId
+DuelStartAttachBuff,DuelStartAttachBuff
+DuelRingSize,DuelRingSize
+DuelRingOutTimeSec,DuelRingOutTimeSec
+DeathResultRange,DeathResultRange
+DuelStartTimeSec,DuelStartTimeSec
+SpecialMaterialItemReinforceLevel,SpecialMaterialItemReinforceLevel
+SpecialMaterialItemSmeltingLevel,SpecialMaterialItemSmeltingLevel
+CharacterDeleteDlaySec,CharacterDeleteDlaySec
+CinematicBuffID,CinematicBuffID
+MaxFriends,MaxFriends
+ReqMax,ReqMax
+ReqPreservedTime,ReqPreservedTime
+RecommendedFriends,RecommendedFriends
+ForceReflowCureItemId,ForceReflowCureItemId
+ForceReflowCureUseId,ForceReflowCureUseId
+Use_Item_Time_CriticalFail_Minute,Use_Item_Time_CriticalFail_Minute
+SummonGoblin_Count,SummonGoblin_Count
+SummonGoblin_Range_Min,SummonGoblin_Range_Min
+SummonGoblin_Range_Max,SummonGoblin_Range_Max
+Mail_Send_Cost_Type,Mail_Send_Cost_Type
+Mail_Send_Cost_Value,Mail_Send_Cost_Value
+Mail_Send_Duration,Mail_Send_Duration
+Mail_SHOP_Inven_Full_Account,Mail_SHOP_Inven_Full_Account
+Mail_SHOP_Inven_Full_System,Mail_SHOP_Inven_Full_System
+Mail_Inven_Full_System,Mail_Inven_Full_System
+Mail_SUPPRESSION_Result_Full_Inven,Mail_SUPPRESSION_Result_Full_Inven
+Mail_First_Clear_Reward,Mail_First_Clear_Reward
+Mail_INCLUDE_Max_Reward,Mail_INCLUDE_Max_Reward
+Mail_INCLUDE_Wanted_Reward,Mail_INCLUDE_Wanted_Reward
+Mail_Delete_Readed,Mail_Delete_Readed
+Dominion_Strong_Point_Black_Iron_Imcome_Time_Hour,흑철 정산 시간
+Dominion_Strongpoint_BlackIron_Limit,문파 흑철 일일 최대 제한
+Mail_Alarm_Quest_Mission,Mail_Alarm_Quest_Mission
+Mail_Alarm_Quest_Request,Mail_Alarm_Quest_Request
+Mail_Alarm_Battle_Lose,Mail_Alarm_Battle_Lose
+Mail_Alarm_Instance_Dungeon1_Success,Mail_Alarm_Instance_Dungeon1_Success
+Mail_Alarm_Instance_Dungeon1_Fail,Mail_Alarm_Instance_Dungeon1_Fail
+Mail_Alarm_Instance_Dungeon2_Success,Mail_Alarm_Instance_Dungeon2_Success
+Mail_Alarm_Instance_Dungeon2_Fail,Mail_Alarm_Instance_Dungeon2_Fail
+Mail_Alarm_PVP_Win,Mail_Alarm_PVP_Win
+Mail_Alarm_PVP_Lose,Mail_Alarm_PVP_Lose
+Chatting_Max_Block_Count,Chatting_Max_Block_Count
+Chatting_Max_Search_Name_Count,Chatting_Max_Search_Name_Count
+PetAdditionExpPercent,PetAdditionExpPercent
+PetDivisionDeckSlot,PetDivisionDeckSlot
+PET_READYSTATE_ENDTIMER,PET_READYSTATE_ENDTIMER
+GREAT_BUILDING_PET_UNCHANGEABLE_TIME,GREAT_BUILDING_PET_UNCHANGEABLE_TIME
+UnsealingSlotCount,UnsealingSlotCount
+GuildHelpCount,GuildHelpCount
+RANKING_SETTLEMENT_HOUR,RANKING_SETTLEMENT_HOUR
+WEEKLY_SETTLEMENT_WEEKDAY,WEEKLY_SETTLEMENT_WEEKDAY
+Durability_Decrese_ApplyItemCntMin,Durability_Decrese_ApplyItemCntMin
+Durability_Decrese_ApplyItemCntMax,Durability_Decrese_ApplyItemCntMax
+Durability_Death_ApplyItemCntMin,Durability_Death_ApplyItemCntMin
+Durability_Death_ApplyItemCntMax,Durability_Death_ApplyItemCntMax
+Durability_DeathPanelty,Durability_DeathPanelty
+PKPanalty_MenuApplyOverLapCnt,PKPanalty_MenuApplyOverLapCnt
+TestPanaltyBuffId,TestPanaltyBuffId
+TestPanaltyBuffTimeMs,TestPanaltyBuffTimeMs
+TestPanaltyBuffOverlapCnt,TestPanaltyBuffOverlapCnt
+Mail_ItemDelete_Jewel,Mail_ItemDelete_Jewel
+Mail_ItemDelete,Mail_ItemDelete
+Monster_ShieldRegeneration_Tic,Monster_ShieldRegeneration_Tic
+Trade_SystemTax,Trade_SystemTax
+Trade_GuildTax,Trade_GuildTax
+Trade_ApplyTax,Trade_ApplyTax
+Trade_SaleWaitingMinTime,Trade_SaleWaitingMinTime
+Trade_SaleWaitingMaxTime,Trade_SaleWaitingMaxTime
+Trade_AccountTime,Trade_AccountTime
+Trade_SalesTime,Trade_SalesTime
+Base_Accuracy,Base_Accuracy
+Base_Critical,Base_Critical
+Base_CriticalOutcome,Base_CriticalOutcome
+Base_Smite,Base_Smite
+HPOverPer,HPOverPer
+HPOverDamagePer,HPOverDamagePer
+RevivalSkillId,RevivalSkillId
+RevivalSkillLevel,RevivalSkillLevel
+RevivalSkillWateTime,RevivalSkillWateTime
+Dominion_Money_Gold_Interest_Ratio,Dominion_Money_Gold_Interest_Ratio
+Dominion_Money_Gold_Interest_Max,Dominion_Money_Gold_Interest_Max
+Dominion_Money_Coin_Interest_Ratio,Dominion_Money_Coin_Interest_Ratio
+Dominion_Money_Coin_Interest_Max,Dominion_Money_Coin_Interest_Max
+Dominion_Tax_SabookCastle_Enable,Dominion_Tax_SabookCastle_Enable
+Dominion_Tax_BicheonCastle_Enable,Dominion_Tax_BicheonCastle_Enable
+Dominion_Tax_StrongPoint_Enable,Dominion_Tax_StrongPoint_Enable
+Dominion_PK_Reward_Mail,Dominion_PK_Reward_Mail
+Dominion_PRIZE_Reward_Mail,Dominion_PRIZE_Reward_Mail
+OneUserRebirth_Skill_ID,OneUserRebirth_Skill_ID
+OneUserRebirth_Skill_LV,OneUserRebirth_Skill_LV
+OneUserRebirth_BUFF_ID,OneUserRebirth_BUFF_ID
+OneUserRebirth_EMOTE_ID,OneUserRebirth_EMOTE_ID
+PkDropObjectDeleteTime,PkDropObjectDeleteTime
+PkDropObjectProtectionTimeSec,PkDropObjectProtectionTimeSec
+PkDropObjectNonOwnerRatio,PkDropObjectNonOwnerRatio
+DeathPenalty_Steal_ReqLv,DeathPenalty_Steal_ReqLv
+DeathPenalty_Steal_NodroptimeBuffId,DeathPenalty_Steal_NodroptimeBuffId
+DeathPenalty_EXP_SaveLogMaxCnt,DeathPenalty_EXP_SaveLogMaxCnt
+DeathPenalty_EXP_LossExpLogMailId,DeathPenalty_EXP_LossExpLogMailId
+DeathPenalty_EXP_ExpireHour,DeathPenalty_EXP_ExpireHour
+DeathPenalty_EXP_ExpireDateMailId,DeathPenalty_EXP_ExpireDateMailId
+DeathPenalty_EXP_FreeResetHour,DeathPenalty_EXP_FreeResetHour
+DeathPenalty_Steal_GetObjectLimitCnt,DeathPenalty_Steal_GetObjectLimitCnt
+DeathPenalty_EXP_FreeRecovery_Limit,DeathPenalty_EXP_FreeRecovery_Limit
+REVIVAL_SafetyIncreaseReqLv,REVIVAL_SafetyIncreaseReqLv
+Ticket_Refund_BuffId,Ticket_Refund_BuffId
+M_LevelRequirement,M_LevelRequirement
+M_PlayTime_Free,M_PlayTime_Free
+M_MaxPlayTime,M_MaxPlayTime
+DamageLimit_StandardDmg,DamageLimit_StandardDmg
+DamageLimit_Denominator,DamageLimit_Denominator
+CommonSafetyResetTime,CommonSafetyResetTime
+CommonSafetyMaxDelayIncreaseCount,CommonSafetyMaxDelayIncreaseCount
+CommonSafetyIncreaseDelayValue,CommonSafetyIncreaseDelayValue
+GenMonster,등장 몬스터
+GenObject,채집 오브젝트
+GenNpc,등장 NPC
+stage #1,등장 지역 #1
+stage #2,등장 지역 #2
+stage #3,등장 지역 #3
+pkname,성향
+pkpointmin,최소 포인트
+pkpointmax,최대 포인트
+getpkpoint,유저 PK
+pkmonsterkillpoint,몬스터 처치
+pkchaouserkillpoint,카오 처치
+RandomOptionGroupId_number,옵션 그룹 아이디
+RandomOptionGroupId_name,장비 분류
+OptionTypeValue,옵션 타입 아이디
+AttributeType,능력
+OptionRate,확률
+OptionGradeRate01,D등급 확률
+OptionGradeRate02,C등급 확률
+OptionGradeRate03,C2등급 확률
+OptionGradeRate04,B등급 확률
+OptionGradeRate05,B2등급 확률
+OptionGradeRate06,A등급 확률
+OptionGradeRate07,A2등급 확률
+OptionGradeRate08,S등급 확률
+OptionGradeRate09,SS등급 확률
+OptionGradeRate10,SSS등급 확률
+OptionGradeValue01,D등급 값
+OptionGradeValue06,C등급 값
+OptionGradeValue11,C2등급 값
+OptionGradeValue16,B등급 값
+OptionGradeValue21,B2등급 값
+OptionGradeValue26,A등급 값
+OptionGradeValue31,A2등급 값
+OptionGradeValue36,S등급 값
+OptionGradeValue41,SS등급 값
+OptionGradeValue46,SSS등급 값
+Physicaldefense,물리방어
+Magicdefense,술법방어
+GuildJoinLevel,가입 최저 레벨(GuildJoinLevel)
+GuildJoinMaxLevel,가입 최대 레벨(GuildJoinMaxLevel)
+GuildJoinCombatPoint,가입 최소 전투력(GuildJoinCombatPoint)
+GuildJoinMaxCombatPoint,가입 최대 전투력(GuildJoinMaxCombatPoint)
+GuildCreationLevel,창설 가능 레벨(GuildCreationLevel)
+GuildCreationCostType,창설 비용 타입(GuildCreationCostType)
+GuildCreationCostCount,창설 비용 수치(GuildCreationCostCount)
+GuildCreationMembers,최초 문파 인원(GuildCreationMembers)
+GuildOfficerMembers,최초 임원 숫자(GuildOfficerMembers)
+GuildAllianceCount,최초 동맹 숫자(GuildAllianceCount)
+GuildEnemyCount,최초 전쟁 숫자(GuildEnemyCount)
+GuildHuntingCount,확인대기(GuildHuntingCount)
+GuildWantedCount,최초 척살 숫자(GuildWantedCount)
+GuildWantedUnlockDevId,척살 언락 문파발전(GuildWantedUnlockDevId)
+GuildWantedUnlockDevLevel,척살 언락 발전레벨(GuildWantedUnlockDevLevel)
+GuildInventoryCount,최초 창고 숫자(GuildInventoryCount)
+GuildInviteMailPresetId,문파초대 우편 ID(GuildInviteMailPresetId)
+GuildInviteRecommandBasicCount,문파최초 초대 숫자(GuildInviteRecommandBasicCount)
+GuildInviteRecommandBasicMaxLevel,문파최대 초대 숫자(GuildInviteRecommandBasicMaxLevel)
+GuildInviteRecommandCustomCount,확인대기(GuildInviteRecommandCustomCount)
+GuildInviteRecommandFullCount,확인대기(GuildInviteRecommandFullCount)
+GuildAllianceApplicantCount,확인대기(GuildAllianceApplicantCount)
+GuildAllianceApplicantMailPresetId,확인대기(GuildAllianceApplicantMailPresetId)
+GuildAllianceUnLockDevId,동맹 언락 문파발전(GuildAllianceUnLockDevId)
+GuildAllianceUnLockDevLevel,동맹 언락 발전레벨(GuildAllianceUnLockDevLevel)
+GuildHostilityDeclareGuildMoneyId,전쟁 선포 재화(GuildHostilityDeclareGuildMoneyId)
+GuildHostilityDeclareGuildMoneyValue,전쟁 선포 비용(GuildHostilityDeclareGuildMoneyValue)
+GuildHostilityDeclareTimeHour,전쟁 유지 시간(GuildHostilityDeclareTimeHour)
+GuildHostilityDeclareUnLockDevId,전쟁 언락 문파발전(GuildHostilityDeclareUnLockDevId)
+GuildHostilityDeclareUnLockDevLevel,전쟁 언락 발전레벨(GuildHostilityDeclareUnLockDevLevel)
+GuildHostilityRewardFameCategory,확인대기(GuildHostilityRewardFameCategory)
+GuildHostilityRewardFameValue,확인대기(GuildHostilityRewardFameValue)
+GuildHostilityRewardGuildContribution,확인대기(GuildHostilityRewardGuildContribution)
+GuildHostilityDeclareMailPresetId,확인대기(GuildHostilityDeclareMailPresetId)
+GuildInventoryExchangeRate,확인대기(GuildInventoryExchangeRate)
+GuildProvideMailPresetId,확인대기(GuildProvideMailPresetId)
+GuildPresentMailPresetId,확인대기(GuildPresentMailPresetId)
+GuildUniformColorChangeCostType,확인대기(GuildUniformColorChangeCostType)
+GuildUniformColorChangeCostCount,확인대기(GuildUniformColorChangeCostCount)
+GuildUniformIconId_Select,확인대기(GuildUniformIconId_Select)
+GuildUniformIconId_NonSelect,확인대기(GuildUniformIconId_NonSelect)
+GuildUniformPaletteGroupId,확인대기(GuildUniformPaletteGroupId)
+GuildIdentityChangeCostType,문파문양 변경재화(GuildIdentityChangeCostType)
+GuildIdentityChangeCostCount,문파문양 변경값(GuildIdentityChangeCostCount)
+GuildNameChangeCostType,문파이름 변경재화(GuildNameChangeCostType)
+GuildNameChangeCostCount,문파이름 변경값(GuildNameChangeCostCount)
+GuildDailyContributionRankingMailPresetId,확인대기(GuildDailyContributionRankingMailPresetId)
+GuildWeeklyContributionRankingMailPresetId,확인대기(GuildWeeklyContributionRankingMailPresetId)
+OccupationEnemyKillGetPoint,점령전 킬 포인트(OccupationEnemyKillGetPoint)
+GuildStrongPointDefenseEnterCount,확인대기(GuildStrongPointDefenseEnterCount)
+GuildContributionMax,확인대기(GuildContributionMax)
+GuildNpcShopSellMoneyId,흑철상점 판매재화(GuildNpcShopSellMoneyId)
+GuildNpcShopSellMoneyMinValue,흑철상점 판매최소(GuildNpcShopSellMoneyMinValue)
+GuildNpcShopSellMoneyMaxValue,흑철상점 판매최대(GuildNpcShopSellMoneyMaxValue)
+GuildNpcShopBuyMoneyId,흑철상점 구매재화(GuildNpcShopBuyMoneyId)
+GuildNpcShopBuyMoneyMinValue,흑철상점 구매액수 최소(GuildNpcShopBuyMoneyMinValue)
+GuildNpcShopBuyMoneyMaxValue,흑철상점 구매액수 최대(GuildNpcShopBuyMoneyMaxValue)
+GuildNpcShopCommissionRate,흑철상점 수수로율(GuildNpcShopCommissionRate)
+GuildNpcShopSaveMoneyId,흑철상점 판매대금 회수재화(GuildNpcShopSaveMoneyId)
+GuildNpcShopReopenRate,흑철상점 재오픈 창고비율(GuildNpcShopReopenRate)
+Mail_GUILD_Join,가입 우편(Mail_GUILD_Join)
+Mail_GUILD_Leave,탈퇴 우편(Mail_GUILD_Leave)
+Mail_GUILD_Deport,추방 우편(Mail_GUILD_Deport)
+Mail_GUILD_Invite,초대 우편(Mail_GUILD_Invite)
+Mail_GUILD_SUPRESSION_ID,확인대기(Mail_GUILD_SUPRESSION_ID)
+Mail_GUILD_Request_Alliance,확인대기(Mail_GUILD_Request_Alliance)
+Mail_GUILD_Declare_Hostility,확인대기(Mail_GUILD_Declare_Hostility)
+Mail_GUILD_Daily_Contributiveness,일일 공헌도 보상우편(Mail_GUILD_Daily_Contributiveness)
+Mail_GUILD_Weekly_Contributiveness,주간 공헌도 보상우편(Mail_GUILD_Weekly_Contributiveness)
+Mail_GUILD_SUPRESSION_First_Clear,확인대기(Mail_GUILD_SUPRESSION_First_Clear)
+Mail_GUILD_Daily_Contributiveness_Reward,확인대기(Mail_GUILD_Daily_Contributiveness_Reward)
+Mail_GUILD_Weekly_Contributiveness_Reward,확인대기(Mail_GUILD_Weekly_Contributiveness_Reward)
+GUILD_SUPRESSION_Daily_Cnt,확인대기(GUILD_SUPRESSION_Daily_Cnt)
+GUILD_SUPRESSION_Daily_Recharge_Cnt,확인대기(GUILD_SUPRESSION_Daily_Recharge_Cnt)
+GUILD_EXPEDITION_Ticket_Daily_Reset_Time,확인대기(GUILD_EXPEDITION_Ticket_Daily_Reset_Time)
+GUILD_EXPEDITION_Ticket_Daily_Reset_Cnt,확인대기(GUILD_EXPEDITION_Ticket_Daily_Reset_Cnt)
+GUILD_Gift_Golden_Key_Maintain_Time,문파 선물 축복상자(GUILD_Gift_Golden_Key_Maintain_Time)
+GUILD_Gift_Maintain_Count,선물 리스트 수량(GUILD_Gift_Maintain_Count)
+GuildLevleIconId,문파레벨 아이콘(GuildLevleIconId)
+GuildExpIconId,문파 EXP 아이콘(GuildExpIconId)
+GuildExpeditionIconId,문파원정 아이콘(GuildExpeditionIconId)
+GuildDevExpIconId,개발 경험치 아이콘(GuildDevExpIconId)
+GuildContributionIconId,문파 공헌도 아이콘(GuildContributionIconId)
+GuildDevLevelUpExpIconID,문파발전 레벨업 아이콘(GuildDevLevelUpExpIconID)
+GuildUniformPaletteGroupID_PresetMain,확인대기(GuildUniformPaletteGroupID_PresetMain)
+GuildUniformPaletteGroupID_PresetSub,확인대기(GuildUniformPaletteGroupID_PresetSub)
+GuildUniformPaletteGroupID_DyeingMain,확인대기(GuildUniformPaletteGroupID_DyeingMain)
+GuildUniformPaletteGroupID_DyeingSub,확인대기(GuildUniformPaletteGroupID_DyeingSub)
+GUILD_WAR_NotEventTime_BuffID,봉인버프(GUILD_WAR_NotEventTime_BuffID)
+GUILD_WAR_ProtectionTime_BuffID,보호버프(GUILD_WAR_ProtectionTime_BuffID)
+GUILD_WAR_Recovery_BuffID,회복버프(GUILD_WAR_Recovery_BuffID)
+GUILD_WAR_ProtectionRecovery_BuffID,회복버프(GUILD_WAR_ProtectionRecovery_BuffID)
+GUILD_WAR_SetOnFire_BuffID,삭제 대상(GUILD_WAR_SetOnFire_BuffID)
+GUILD_WAR_HPRepaire_BuffID,삭제 대상(GUILD_WAR_HPRepaire_BuffID)
+GUILD_WAR_HPRepairSupport_BuffID,삭제 대상(GUILD_WAR_HPRepairSupport_BuffID)
+Guild_Support_Point_Per,문파지원 문파주화 보상(Guild_Support_Point_Per)
+Guild_Support_Point_Max,문파지원 문파주화 최대(Guild_Support_Point_Max)
+Guild_Support_Point_Reset_Time_Hour,확인대기(Guild_Support_Point_Reset_Time_Hour)
+Siege_PointsPerKill,공성전_랭킹_유저킬점수(Siege_PointsPerKill)
+Siege_CaptureProtectionBuff,공성전_점령석보호버프(Siege_CaptureProtectionBuff)
+SIEGE_WarEnd_PCHealBuffID,공성전_전쟁종료버프(SIEGE_WarEnd_PCHealBuffID)
+GUILD_Leader_Change_Mail,문주위임 우편(GUILD_Leader_Change_Mail)
+GUILD_Skill_Use_Mail,문파기술 사용우편(GUILD_Skill_Use_Mail)
+GuildEntrustSalesDefaultCount,확인필요(GuildEntrustSalesDefaultCount)
+GuildGift_Maintain_Time,문파 선물 유지 시간(GuildGift_Maintain_Time)
+GUILD_WAR_HPRecovery_BuffID,거점전 체력 30% 회복(GUILD_WAR_HPRecovery_BuffID)
+GUILD_WAR_GuildChangeTime_BuffID,거점전 무적 1분(GUILD_WAR_GuildChangeTime_BuffID)
+GuildHelpCount_EXP,문파 지원 경험치(GuildHelpCount_EXP)
+Guild_War_Reward_StorageFullMailId,문파창고가득참메일(Guild_War_Reward_StorageFullMailId)
+Guild_Max_Storage_BlackIron_notimail,문파 창고의 흑철 가득참(Guild_Max_Storage_BlackIron_notimail)
+Guild_Master_Change_Time_Sec,문주위임 기간(Guild_Master_Change_Time_Sec)
+Guild_Master_Change_StartServer_Delay_Sec,문주위임 대기 기간(Guild_Master_Change_StartServer_Delay_Sec)
+ChannelId,지역
+Ch_DefaultCount,기본 채널
+Ch_DefaultAddcnt,확장 필요 인원
+Ch_MaxCount,최대 채널
+Sync_RecommendCount,권장 인원
+Sync_MaxCount,최대 인원
+IsWatingCh,대기열
+SmeltingType,능력 타입
+RewardBoxTotalCount,최대 상자 갯수
+BoxDropChance_A,A그룹 드랍 확률
+BoxDropChance_B,B그룹 드랍 확률
+BoxDropCount_Max_A,A상자 최대 갯수
+BoxDropCount_Max_B,B상자 최대 갯수
+ObjectId_A,A 상자ID
+ObjectId_B,B 상자ID
+ObjectId_C,C 상자ID
+PieTypeRewardBoxGroupId,그룹 아이디
+RewardBoxDropCount,드랍할 박스 개수
+RewardBoxDropChance,드랍 여부
+DROP_REWARD_OBJECTGROUPID,드랍 상자 그룹ID
+Object_Drop_Chance,확률
+ObjectID,오브젝트
+Drop_Reward_Object_GroupID,오브젝트 그룹 아이디
+LocationX,X좌표
+LocationY,Y좌표
+LocationZ,Z좌표
+SpawnRange,스폰범위
+Drop_Reward_Object_GroupID,오브젝트 그룹 아이디
+CollectIcon,등급
+Aosvalue,구글 가격
+Iosvalue,애플 가격
+Samsungvalue,삼성스토어 가격
+Onevalue,원스토어 가격
+GoodsId,상품 아이디
+TabId,상품이 적용되는 TAP 아이디
+GoodsType,상품 타입
+FrontGoodsId,구매시 구매 가능한 상품ID
+ExplainStrId,상품 설명
+GoodsCommodityId,지급 품목
+GoodsValue,지급 품목 개수
+BonusType1,보너스 타입 1
+BonusId1,보너스 품목 #1
+BonusCount1,보너스 개수 1
+BonusType2,보너스 타입 2
+BonusId2,보너스 품목 #2
+BonusCount2,보너스 개수 2
+BonusType3,보너스 타입 3
+BonusId3,보너스 품목 #3
+BonusCount3,보너스 개수 3
+QuestId,달성조건 퀘스트 아이디
+AcievementType,달성조건 보상 타입
+AcievementId,달정조건 아이템 아이디
+AcievementValue,달성조건 지급 개수
+DueDate,지급기간
+EveryDayType,매일 지급 아이템 타입
+EveryDayId,매일 지급 아이템 아이디
+EveryDayCount,매일 지급 개수
+MoneyId,판매 재화 아이디
+MoneyIValue,판매 액수
+AosUId,구글 현금 결제 아이디
+IosUId,애플 현금 결제 아이디
+SamsungId,삼성 스토어 결제 아이디
+OneId,원스토어 결제 아이디
+MileageId,마일리지 아이디
+GiveType,상품 지급 위치
+LimitServer,서버 구매 개수 제한
+LimitServerCount,서버 구매 제한 개수
+LimitTarget,구매 제한 대상
+LimitCountType,구매 제한 타입
+LimitCountValue,구매 제한 횟수
+LevelType,레벨 제한 구분 여부
+LimitLevelMin,최소 레벨 제한
+LimitLevelMax,최대 레벨 제한
+IconId,상품 아이콘 아이디
+OrderType,정렬 타입
+OrderNum,정렬 순서
+TagIconId,태그 아이콘
+OnOffType,상품 표시 타입
+OnOfTimeStart,상품 표시 시작 시간
+OnOfTimeEnd,상품 표시 종료 시간
+SubIBag,청약철회 가능 가방 이용
+DisplayOnOff,구매시 상점에서 제외
+HotDeal,할인 여부
+HotDealTimeStart,핫딜 시작 시간
+HotDealTimeEnd,핫딜 종료 시간
+DiscountRate,할인율
+GuildGift,길드원 선물
+GuildGiftStr,길드 선물 텍스트
+Gotab,재화부족 이동 아이디
+ReleaseTime,출시 예정 시간
+OnePlus,1+1 표시
+MoneyValue,구매 재화(1회)
+MoneyValue_Many,구매 재화(10회)
+상품 타입,상품 타입
+지급 품목,지급 품목
+BuyItemId,우선 사용 아이템 (1회)
+BuyItemValue,소비 수량(1회)
+BuyItemId_Many,우선 사용 아이템 (10회)
+BuyItemValue_Many,소비 수량(10회)
+MileageValue_Many,다회 지급 마일리지 액수
+DayMaxValue,1일 최대 횟수
+Level_Limited,레벨 제한
+BuffId,버프ID
+BuffExplain,버프 설명
+BuffUseType,사용 타입
+ApplyType,버프적용타입
+BuffTarget,적용대상
+UpdateRule,버프적용룰
+KeepType_Die,사망시유지
+KeepType_StageOut,월드이동시유지
+KeepType_LogOut,접속종료시유지
+BuffArmorType,버프방어타입
+Buffprobability,버프공격점수
+BuffOverlap,버프 중첩
+OverLapCallGroupID,버프중첩콜
+BuffAttackID,버프공격아이디
+TimeType,시간타입
+BuffType,버프 타입
+BuffTime,유지시간(초)
+LevelUpBuffTime,레벨당유지시간증가
+BuffIndexType_1,효과종류1
+BuffIndex_1,효과번호1
+BuffValue_1,버프벨류1
+LevelUpBuffValue_1,레벨당벨류상승1
+BuffValueEx_1,버프벨류EX1
+BuffIndexType_2,효과종류2
+BuffIndex_2,효과번호2
+BuffValue_2,버프벨류2
+LevelUpBuffValue_2,레벨당벨류상승2
+BuffValueEx_2,버프벨류EX2
+BuffIndexType_3,효과종류3
+BuffIndex_3,효과번호3
+BuffValue_3,버프벨류3
+LevelUpBuffValue_3,레벨당벨류상승3
+BuffValueEx_3,버프벨류EX3
+PassiveID,적용패시브
+detachBuffID,삭제버프아이디
+Level_Limited,레벨 제한
+EffectSid,사용효과
+스케쥴 타입1,마방진 / 비정봉 / 토벌 / 보스토벌 입장권 초기화 시간
+스케쥴 타입2,문파 활동 보고 / 지원 / 영지 관리 초기화 시간
+스케쥴 타입3,일일 과제 초기화 시간
+스케쥴 타입4,반복 임무 초기화 시간
+스케쥴 타입5,개인 / 문파 랭킹 초기화 시간
+스케쥴 타입6,사망 페널티 초기화 시간
+스케쥴 타입7,문파기부 액수 일일 초기화 시간
+스케쥴 타입8,문파기부 기록 일일 초기화 시간
+스케쥴 타입9,문파기부 기록 주간 초기화 시간
+스케쥴 타입10,원정대 오픈 시간 및 유지 시간
+스케쥴 타입11,표국 제작 횟수 일일 초기화 시간
+스케쥴 타입12,표국 제작 횟수 주간 초기화 시간
+스케쥴 타입13,표국 제작 횟수 월간 초기화 시간
+스케쥴 타입14,이벤트 드랍 초기화 시간
+스케쥴 타입15,상점 초기화 시간
+스케쥴 타입16,가챠 초기화 시간
+스케쥴 타입17,흑철 일일 누적 채광량 초기화 시간
+스케쥴 타입18,배틀패스 초기화 시간
+스케쥴 타입19,유지이벤트 초기화 시간
+스케쥴 타입20,FT 거래소 초기화 시간
+DetailMainQuestID,퀘스트 아이디
+EventID,이벤트ID
+EventType,이벤트타입
+MaxStep,최대 진행 수
+StarCondition,시작 조건
+StartTime,시작 값
+CloseCondition,종료 조건
+CloseTime,종료 값
+UiButtonName,이벤트 이름
+UiOrderNum,정렬 순서
+GoalCompleteStep,보상 순서
+GoalCompleteValue,달성 값
+Reward1Id,보상 #1
+Reward1Count,수량 #1
+Reward2Id,보상 #2
+Reward2Count,수량 #2
+Reward3Id,보상 #3
+Reward3Count,수량 #3
+RetryGoalCostId,구매 값
+RetryGoalCostValue,가격
+SeasonBuffFist1,1그룹 시즌 버프 #1
+SeasonBuffFist2,1그룹 시즌 버프 #2
+SeasonBuffSecond1,2그룹 시즌 버프 #1
+SeasonBuffSecond2,2그룹 시즌 버프 #2
+AosUidValue1,1그룹 구글 가격
+IosUidValue1,1그룹 iOS 가격
+OneStoreValue1,1그룹 원스토어 가격
+SamsungValue1,1그룹 삼성스토어 가격
+AosUidValue2,2그룹 구글 가격
+IosUidValue2,2그룹 iOS 가격
+OneStoreValue2,2그룹 원스토어 가격
+SamsungValue2,2그룹 삼성스토어 가격
+title,미션
+completecount,목표
+missionpoint,포인트
+immediateid,즉시완료 재화
+value,즉시완료 비용
+NUMBER,보상 번호
+NeedPoint,필요 포인트
+R1,기본 보상
+R1 Value,수량 
+R2,1그룹 보상
+R2 Value,수량  
+R3,2그룹 보상
+R3 Value,수량   
+CostID,머니 아이디
+LimitGuildMax,최대 문파 보유량
+LimitSystemMax,최대 시스템 보유량
+AttributeType_Number,능력치 번호
+RewardCostId,보상 재화
+RunSpeed,이동속도
+SkillMinLv,최소 레벨
+SkillMaxLv,최대 레벨 
+Passive,지속 패시브
+PassivePartyBuffID,파티 지속 버프
+PassivePartyBuffLv,파티 지속 버프 레벨
+SkillOnlyPassive,스킬전용 패시브
+PassiveId,패시브 아이디
+PassiveMainType,패시브 타입
+PassiveType,패시브 발동 유형
+CastingCondition,패시브 조건
+ConditionValue,패시브 조건 값 #1
+ConditionValue01,패시브 조건 값 #2
+ConditionValue02,패시브 조건 값 #3
+ConditionPer,발동 확률
+LVConditionPer,레벨에 따른 발동 확률 증가
+CoolTime,쿨타임
+LVCoolTime,레벨에 따른 쿨타임 감소
+BuffTargetType,버프 대상
+SkillPassiveLevel,스킬 패시브 레벨
+BuffLink,버프 링크
+SpecialAbilityType,특수 효과 타입
+SpecialAbilityValue01,특수 효과 값 #1
+SpecialAbilityValue02,특수 효과 값 #2
+AbilityType_1,효과종류 #1
+AbilityValue_1,효과값_1 #1
+LevelUpAbilityValue_1,레벨업 효과값 #1
+AbilityValueEx_1,효과값_2 #1
+AbilityType_2,효과종류 #2
+AbilityValue_2,효과 값_1 #2
+LevelUpAbilityValue_2,레벨업 효과값 #2
+AbilityValueEx_2,효과 값_2 #2
+IsSmite,강타 여부
+StageLevel,레벨
+SmeltingOneDownProbability,약화 확률
+TotemId,토템 아이디
+AccuracyPer,명중률
+CriticalPer,치명률
+CriticalOutcomePer,치명 피해율
+AttackDelay,공격 간격
+SkillAttackID,어택 ID
+Cleartime,클리어 시간
+DetectRange,인식 거리
+ContributeRewardTypeSub1,보상 #1
+ContributeRewardTypeSub2,보상 #2
+ContributeRewardTypeSub3,보상 #3
+ContributeRewardTypeSub4,보상 #4
+ContributeRewardTypeSub5,보상 #5
+ContributeRewardTypeSub6,보상 #6
+ContributeRewardTypeSub7,보상 #7
+ContributeRewardTypeSub8,보상 #8
+ContributeRewardTypeSub9,보상 #9
+ContributeRewardTypeSub10,보상 #10
+ContributeGradeText,기여도 등급
+ContributeMax,기여도 순위 최대 값
+ContributeMin,기여도 순위 최소 값
+ContributeGrade,기여도 등급 구분
+NameTagDropItemId,확정 드랍 아아디
+QuestDropId,퀘스트 아이템
+DungeonScriptData,스크립트 파일명
+UniqueID,스크립트 ID
+Progress_Enter_Condition,스크립트 조건
+Raid_Script,스크립트 내용
+AuctionGuildDevId,입찰 조건(문파기술)
+AuctionGuildDevLevel,조건 레벨
+AuctionMoneyId,경매재화
+AuctionMoneyValueMin,입찰 시작금액
+AuctionIncreaseRate,입찰금액 증가비율
+AuctionEndRunTimeMinute,공성전 대기 시간
+SiegeRunTimeMinute,공성전 진행시간
+AllyMemberMax,동맹 입장 인원
+Reward_GuildMoneyId01,문파보상 재화
+Reward_GuildMoneyCnt01,문파보상 수량
+SiegeZone_MaxPoint,점령 필요 포인트
+SiegeZone_AddPoint,주기당 상승 포인트
+SiegeZone_FallPoint,감소 포인트
+SiegeZone_LockTimeSec,점령 보호 시간(초)
+SiegeRankingPoint,점령 랭킹 포인트
+RewardMoneyId01,재화 보상 #1
+RewardMoneyCnt01,재화 수량 #1
+RewardMoneyId02,재화 보상 #2
+RewardMoneyCnt02,재화 수량 #2
+RewardItemUseId01,보상 아이템
+RewardItemCnt01,아이템 수량
+GetBuffPerOwner_BuffId,적용 버프
+GetBuffPerOwner_MaxLv,버프 최대 레벨
+GetBuffPerOwner_CheckInterval,체크 간격
+ProductionTime,생산시간
+ReproductionCoolTime,재생산시간
+SiegeWeaponReqMoneyId01,제작 재화 #1
+SiegeWeaponReqMoneyCnt01,제작 비용 #1
+SiegeWeaponReqMoneyId02,제작 재화 #2
+SiegeWeaponReqMoneyCnt02,제작 비용 #2
+SiegeWeaponReqMoneyId03,제작 재화 #3
+SiegeWeaponReqMoneyCnt03,제작 비용 #3
+SiegeWeaponReqMoneyId04,제작 재화 #4
+SiegeWeaponReqMoneyCnt04,제작 비용 #4
+EventValue,보상 갯수
+ItemRate,확률
+user_event_type,이벤트타입
+EventGachaCountType,가챠 무료 타입
+EventGachaCount,무료 횟수
+EventGachaTime,무료 초기화 시간(H)
+EventMileageValue,1회 소환 향로 포인트
+EventMileageValue_Many,10회 소환 향로 포인트
+EventMileageCost,향로 최대 포인트
+EventGacha_DailyCount,일일 제한 횟수
+GachaMoneyId,사용 재화
+CollectNameSID,달성도 이름	
+CollectStep,달성 단계
+TrainingTotalLevel,필요 레벨
+TrainingStatusId,혈도 아이디
+TrainingLevel,레벨
+Training_NeedCostId,강화 재화
+Training_NeedUse01Id,혈도 강화 재료 #1
+Training_NeedItem01Count,재료 개수 #1
+Training_NeedUse02Id,혈도 강화 재료 #2
+Training_NeedItem02Count,재료 개수 #2
+Training_Success,성공 확률
+Training_Fail,실패 확률
+Training_CriticalFail,주화입마 확률
+CriticalFail_Down1Level,1레벨 다운 확률
+CriticalFail_Down2Level,2레벨 다운 확률
+CriticalFail_Down3Level,3레벨 다운 확률
+CriticalFail_Down4Level,4레벨 다운 확률
+CriticalFail_Down5Level,5레벨 다운 확률
+TranceStep,초월 단계
+ReqCostType1,초월 재화 #1
+ReqCostValue1,초월 비용 #1
+ReqCostType2,초월 재화 #2
+ReqCostValue2,초월 비용 #2
+TranceSuccessRatio,성공 확률
+TranceEffectValue,추가 능력치
+TranceFailItemID1,실패 지급 보상 #1
+TranceFailItemRatio1,보상 확률 #1
+TranceFailItemCntMin1,최소 수량 #1
+TranceFailItemCntMax1,최대 수량 #1
+TranceFailItemID2,실패 지급 보상 #2
+TranceFailItemRatio2,보상 확률 #2
+TranceFailItemCntMin2,최소 수량 #2
+TranceFailItemCntMax2,최대 수량 #2
+TranceFailItemID3,실패 지급 보상 #3
+TranceFailItemRatio3,보상 확률 #3
+TranceFailItemCntMin3,최소 수량 #3
+TranceFailItemCntMax3,최대 수량 #3
+TranceFailItemID4,실패 지급 보상 #4
+TranceFailItemRatio4,보상 확률 #4
+TranceFailItemCntMin4,최소 수량 #4
+TranceFailItemCntMax4,최대 수량 #4
+QuestDropOBJID,오브젝트 아이디
+stage,지역
+ObjectName,이름
+QuestType,퀘스트 타입
+CountMin,최소
+CountMax,최대
+DropRate,드랍 확률
+ServerVisitUseContents,콘텐츠 이용 여부
+ContentsName,콘텐츠
+RevivalSID,부활 지역
+PkWin_ServerVister_PkDefeat_NotServerVister_Gain_ItemId,원정대 승리 아이템
+PkWin_ServerVister_PkDefeat_NotServerVister_Gain_ItemCount,원정대 승리 아이템 개수
+PkWin_NotServerVister_PkDefeat_ServerVister_Gain_ItemId,원주민 승리 아이템
+PkWin_NotServerVister_PkDefeat_ServerVister_Gain_ItemCount,원주민 승리 아이템 개수
+PkWin_ADay_Gain_MaxCount_ServerVister,원정대 아이템 제한
+PkWin_ADay_Gain_MaxCount_NotServerVister,원주민 아이템 제한
+ServerVisitLifeCount,원정대 기본 생명력 개수
+Server_Visit_Max_Count,원정 최대 인원
+Server_Visit_Open_Hour,원정 오픈 시간(24H)
+Server_Visit_Open_Min,원정 오픈 분
+Server_Visit_Keep_Time,원정 오픈 유지 시간(초)
+itemmakeid,아이템 제작 아이디
+MakeLimitType,제작 횟수 제한 단위
+MakeWorldLimitCount,서버 제작 제한 횟수
+MakeTryLimitCount,제작 시도 제한 횟수
+MakeSuccessLimitCount,제작 성공 제한 횟수
+MakePeriodType,제작 기간 타입
+MakePeriodStartDate,제작 기간 시작 시간
+MakePeriodEndDate,제작 기간 종료 시간
+SchedulerCycleId,제작 횟수 리셋 주기
+BroadCastType,방송 타입
+SortOrder,정렬 순위
+MakeFailReward01Rate,실패 시 1번 보상 지급 확률
+MakeFailReward01Type,실패 시 1번 보상 지급 타입
+MakeFailReward01Id,실패 시 1번 보상 지급 아이템
+MakeFailReward01Count,실패 시 1번 보상 지급 수량
+MakeFailReward02Rate,실패 시 2번 보상 지급 확률
+MakeFailReward02Type,실패 시 2번 보상 지급 타입
+MakeFailReward02Id,실패 시 2번 보상 지급 아이템
+MakeFailReward02Count,실패 시 2번 보상 지급 수량 
+MakeFailReward03Rate,실패 시 3번 보상 지급 확률
+MakeFailReward03Type,실패 시 3번 보상 지급 타입
+MakeFailReward03Id,실패 시 3번 보상 지급 아이템
+MakeFailReward03Count,실패 시 3번 보상 지급 수량
+MakeFailReward04Rate,실패 시 4번 보상 지급 확률
+MakeFailReward04Type,실패 시 4번 보상 지급 타입
+MakeFailReward04Id,실패 시 4번 보상 지급 아이템
+MakeFailReward04Count,실패 시 4번 보상 지급 수량
+ItemMakeID,제작 아이템
+TargetDistanceMax,공격 발동 최대 사정거리(cm)
+AttackDistanceMax,공격 거리Max(cm)
+AttackHeight,공격 높이(cm)
+AttackWidth,공격 너비(cm)
+RequestGetPer,수집확률
+QuestGetPer,수집확률
+MissionGetPer,수집확률
+Quest Type,퀘스트 타입
+AuctionStartWeekInterval,공성전 경매 주기
+AuctionStartDayOfWeek,공성전 경매 시작 요일
+AuctionStartTime,공성전 경매 시작 시간
+AuctionRunTimeMinute,공성전 경매 소요 시간
+AuctionExtensionTimeMinute,공성전 경매 최대 연장 시간
+SiegeEve_EventDrop_StartDay,공성전 전야제 시작
+SiegeEve_EventDrop_EndDay,공성전 전야제 종료
+SiegeEve_ItemColection_StartDay,공성전 전야제 보감 시작
+SiegeEve_ItemColection_EndDay,공성전 전야제 보감 종료
+STRONGPOINTID_101,비천비곡 점령전
+STRONGPOINTID_102,뱀골비곡 점령전
+STRONGPOINTID_103,적월비곡 점령전
+expdtype_1,문파원정
+expdtype_3,문파도전
+EventTimeline_7001,우투칸 등장 시간
+EventTimeline_7003,네르칸 등장 시간
+EventTimeline_8001,생령의 습격 시작 시간
+EventTimeline_30110,미궁보스 등장 시간
+EventTimeline_30122,미궁보스 등장 시간 #2
+EventTimeline_40112,비곡보스 등장 시간
+EventTimeline_40124,비곡보스 등장 시간 #2
+SkillType,스킬타입
+UnlockNeedItemCount,소환 시 요구수량
+XdracoProbability,Xdarco 제작 확률
+XdracoSuccessRate,Xdraco 확률

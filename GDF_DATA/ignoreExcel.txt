@@ -1,0 +1,13 @@
+CheatItemSet_Table
+CINEMATIC_DIALOGUE
+CUSTOMIZING_TYPE
+LOADING
+MAIL_PRESET
+SLANG_CHATTING
+능력치 속성 정의.xlsx
+템플릿 자동 서식
+템플릿 자동 서식_GenData용
+템플릿 자동 서식_GENDOOR용
+템플릿 자동 서식_표형식
+복사본
+GUILD_CONTRIBUTION_GRADE

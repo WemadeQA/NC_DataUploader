@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NC_GDF_DATA", "GDF_DATA\NC_GDF_DATA.csproj", "{FD506057-B70E-40DE-911B-67A13FB750C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD506057-B70E-40DE-911B-67A13FB750C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD506057-B70E-40DE-911B-67A13FB750C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD506057-B70E-40DE-911B-67A13FB750C6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FD506057-B70E-40DE-911B-67A13FB750C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD506057-B70E-40DE-911B-67A13FB750C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADA3B9E2-5E54-434F-99B5-D72C3E4384D7}
+	EndGlobalSection
+EndGlobal
