@@ -61,30 +61,49 @@ namespace GDF_DATA
 
         private string getDataType(Dictionary<string, List<string>> dicDataType, string colname, string tableName, int index)
         {
-            string type = "VARCHAR(70)";
+            string type = "VARCHAR(100)";
 
             if (tableName != "SYSTEM_DATA")
             {
-                if (dicDataType[tableName].Count <= index)
+                if (tableName.Contains("String"))
                 {
-                    type = "VARCHAR(350)";
-                    return type;
+
                 }
 
-                if (colname.Contains("[]"))
-                    type = "VARCHAR(350)";
-                else if (dicDataType[tableName][index].Equals("int[]"))
-                    type = "VARCHAR(350)";
-                else if (dicDataType[tableName][index].Equals("View"))
-                    type = "VARCHAR(500)";
-                else if (dicDataType[tableName][index].Equals("string"))
-                    type = "TEXT(1200)";
-                else if (dicDataType[tableName][index].Equals("배열"))
-                    type = "VARCHAR(350)";
+
+                if ((dicDataType[tableName].Count <= index) && !tableName.Contains("String"))
+                {
+                    type = "VARCHAR(100)";
+                    return type;
+
+                    if (tableName.Contains("String"))
+                    {
+                        if (dicDataType[tableName][index].Equals("String"))
+                            type = "VARCHAR(1200)";
+                        return type;
+                    }
+                }
+
+                //if (dicDataType[tableName][index].Equals("String"))
+                //    type = "VARCHAR(1200)";
+                //else if (dicDataType[tableName][index].Equals("배열"))
+                //    type = "VARCHAR(700)";
             }
             else
             {
                 type = "VARCHAR(50)";
+            }
+
+
+            if (tableName.Contains("String"))
+            {
+                type = "VARCHAR(1200)";
+
+                if (dicDataType[tableName].Count <= index)
+                {
+                    type = "VARCHAR(1200)";
+                    return type;
+                }
             }
 
             return type;
