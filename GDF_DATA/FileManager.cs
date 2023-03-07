@@ -90,15 +90,17 @@ namespace GDF_DATA
                 TimeCounter fileReadTime = new TimeCounter();
                 fileReadTime.RecordTime();
 
+                string filePath = file.FilePath;
+                string fileName = file.FileName;
+
                 if (file.FilePath.Contains("xlsx"))
                 {
-                    excelToDataList(file.FilePath, file.FileName, data);
+                    if (fileName == "EquipmentEnhancement")                   
+                        ChangeExcelFile(fileName, filePath);
+                    else
+                        excelToDataList(file.FilePath, file.FileName, data);
                 }
-                //else 
-                //if (file.FilePath.Contains("json"))
-                //{
-                //    jsonToDataList(file);
-                //}
+
                 _readedFileCount++;
 
                 GlobalLog.Instance.Log($"{_readedFileCount} / {_maxReadFileNumber} , {file.FileName} " + fileReadTime.GetTimePasses());
@@ -497,5 +499,52 @@ namespace GDF_DATA
                 GlobalLog.Instance.Log(e.ToString());
             }
         }
+
+        private void ChangeExcelFile(string fileName, string filePath)
+        {
+            Microsoft.Office.Interop.Excel.Application xlApp = null;
+            Microsoft.Office.Interop.Excel.Workbook xlBook = null;
+            Microsoft.Office.Interop.Excel.Worksheet xlSheet = null;
+    
+            string fullPath = Path.GetFullPath(filePath);
+
+            var fileInfo = new FileInfo(fullPath);
+            fileInfo.IsReadOnly = false;
+
+            xlApp = new Microsoft.Office.Interop.Excel.Application();
+
+            xlBook = xlApp.Workbooks.Open(fullPath);
+            xlSheet = xlBook.Worksheets["Data"];
+
+            if (fileName == "EquipmentEnhancement")
+            {
+                Microsoft.Office.Interop.Excel.Range range = xlSheet.Rows[1];
+                Microsoft.Office.Interop.Excel.Range range2 = xlSheet.Rows[2];
+
+                range.EntireRow.Delete();
+                range2.EntireRow.Delete();
+
+                //range.Delete();
+                //range2.Delete();
+            }
+
+            //else if (fileName == "Drop_Group")
+            //{
+            //    xlSheet.Cells[3, 1] = "Idx"; 
+            //    xlSheet.Cells[3, 2] = "Table";
+            //    xlSheet.Cells[3, 3] = "Order"; 
+            //}
+
+            //xlApp.DisplayAlerts = false;
+            xlBook.Save();
+
+            xlBook.Close();
+            xlApp.Quit();
+
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(xlBook);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(xlApp);
+          
+        }
+
     }
 }

@@ -357,5 +357,7 @@ namespace GDF_DATA
             // 변역명 리스트 반환
             return convertColumnsName;
         }
+
+
     }
 }
